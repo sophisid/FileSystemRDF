@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:fs="http://example.org/filesystem#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdfs:Class rdf:about="http://example.org/filesystem#MB6">
+    <rdfs:label>MB6</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/filesystem#root"/>
+  </rdfs:Class>
+  <rdf:Property rdf:about="http://example.org/filesystem#isContainedIn">
+    <rdfs:label>isContainedIn</rdfs:label>
+  </rdf:Property>
+  <rdfs:Class rdf:about="http://example.org/filesystem#FIB">
+    <rdfs:label>FIB</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/filesystem#root"/>
+  </rdfs:Class>
+  <rdf:Property rdf:about="http://example.org/filesystem#containsFile">
+    <rdfs:label>containsFile</rdfs:label>
+  </rdf:Property>
+  <fs:File rdf:about="http://example.org/filesystem#person_knows_person_0_0.csv">
+    <rdfs:label>person_knows_person_0_0.csv</rdfs:label>
+    <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+  </fs:File>
+  <rdfs:Class rdf:about="http://example.org/filesystem#LDBC__ldbc_inputs1">
+    <rdfs:label>ldbc_inputs1</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/filesystem#LDBC"/>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#comment_replyOf_post_0_0.csv">
+        <rdfs:label>comment_replyOf_post_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#place_isPartOf_place_0_0.csv">
+        <rdfs:label>place_isPartOf_place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#tagclass_isSubclassOf_tagclass_0_0.csv">
+        <rdfs:label>tagclass_isSubclassOf_tagclass_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#post_hasTag_tag_0_0.csv">
+        <rdfs:label>post_hasTag_tag_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#comment_replyOf_comment_0_0.csv">
+        <rdfs:label>comment_replyOf_comment_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#person_knows_person_0_0.csv"/>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#forum_hasModerator_person_0_0.csv">
+        <rdfs:label>forum_hasModerator_person_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#dot_DS_Store">
+        <rdfs:label>.DS_Store</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#root"/>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC"/>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#comment_hasTag_tag_0_0.csv">
+        <rdfs:label>comment_hasTag_tag_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_hasInterest_tag_0_0.csv">
+        <rdfs:label>person_hasInterest_tag_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_isLocatedIn_place_0_0.csv">
+        <rdfs:label>person_isLocatedIn_place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1__tmp"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_email_emailaddress_0_0.csv">
+        <rdfs:label>person_email_emailaddress_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#comment_isLocatedIn_place_0_0.csv">
+        <rdfs:label>comment_isLocatedIn_place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#tag_hasType_tagclass_0_0.csv">
+        <rdfs:label>tag_hasType_tagclass_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#organisation_0_0.csv">
+        <rdfs:label>organisation_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#tagclass_0_0.csv">
+        <rdfs:label>tagclass_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#forum_hasTag_tag_0_0.csv">
+        <rdfs:label>forum_hasTag_tag_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#organisation_isLocatedIn_place_0_0.csv">
+        <rdfs:label>organisation_isLocatedIn_place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#comment_hasCreator_person_0_0.csv">
+        <rdfs:label>comment_hasCreator_person_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#forum_containerOf_post_0_0.csv">
+        <rdfs:label>forum_containerOf_post_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_speaks_language_0_0.csv">
+        <rdfs:label>person_speaks_language_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_0_0.csv">
+        <rdfs:label>person_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1__tmp"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#forum_0_0.csv">
+        <rdfs:label>forum_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_workAt_organisation_0_0.csv">
+        <rdfs:label>person_workAt_organisation_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#place_0_0.csv">
+        <rdfs:label>place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1__tmp"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#post_0_0.csv">
+        <rdfs:label>post_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#post_isLocatedIn_place_0_0.csv">
+        <rdfs:label>post_isLocatedIn_place_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#tag_0_0.csv">
+        <rdfs:label>tag_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_likes_post_0_0.csv">
+        <rdfs:label>person_likes_post_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_studyAt_organisation_0_0.csv">
+        <rdfs:label>person_studyAt_organisation_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#post_hasCreator_person_0_0.csv">
+        <rdfs:label>post_hasCreator_person_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+    <fs:containsFile>
+      <fs:File rdf:about="http://example.org/filesystem#person_likes_comment_0_0.csv">
+        <rdfs:label>person_likes_comment_0_0.csv</rdfs:label>
+        <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+      </fs:File>
+    </fs:containsFile>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org/filesystem#LDBC__ldbc_inputs1__tmp">
+    <rdfs:label>tmp</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/filesystem#LDBC__ldbc_inputs1"/>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#person_isLocatedIn_place_0_0.csv"/>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#person_0_0.csv"/>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#place_0_0.csv"/>
+  </rdfs:Class>
+  <fs:File rdf:about="http://example.org/filesystem#ldbc_inputs1.zip">
+    <rdfs:label>ldbc_inputs1.zip</rdfs:label>
+    <fs:isContainedIn rdf:resource="http://example.org/filesystem#LDBC"/>
+  </fs:File>
+  <rdfs:Class rdf:about="http://example.org/filesystem#LDBC">
+    <rdfs:label>LDBC</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/filesystem#root"/>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#dot_DS_Store"/>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#ldbc_inputs1.zip"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org/filesystem#root">
+    <rdfs:label>datasets</rdfs:label>
+    <fs:containsFile rdf:resource="http://example.org/filesystem#dot_DS_Store"/>
+  </rdfs:Class>
+</rdf:RDF>
